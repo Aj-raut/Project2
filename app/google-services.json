@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1090166998092",
+    "project_id": "clean-together-b24f2",
+    "storage_bucket": "clean-together-b24f2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090166998092:android:2e1427681419b94af420e9",
+        "android_client_info": {
+          "package_name": "com.ajinkya.cleantogether"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090166998092-ai0jok9d5ip4f227a52f53grugpqg751.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ajinkya.cleantogether",
+            "certificate_hash": "077e3c548439312be92a8a16935f2116fa6488c1"
+          }
+        },
+        {
+          "client_id": "1090166998092-vgktg9pvfb40te0d0893rgoehijacmrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8R8jWlxoQCF5IuZFQEmlmE6jYeOTjNUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090166998092-vgktg9pvfb40te0d0893rgoehijacmrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

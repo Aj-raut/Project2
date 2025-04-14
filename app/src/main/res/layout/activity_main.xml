@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomBar"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />
+
+    <me.ibrahimsn.lib.SmoothBottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="Navigation Bar"
+        app:backgroundColor="#FFFFFF"
+        app:cornerRadius="16dp"
+        app:iconSize="24dp"
+        app:iconTint="#757575"
+        app:iconTintActive="#2196F3"
+        app:indicatorColor="#E3F2FD"
+        app:indicatorRadius="8dp"
+        app:itemPadding="8dp"
+        app:menu="@menu/bottom_nav_menu"
+        app:textColor="#2196F3"
+        app:textSize="14sp" />
+
+</RelativeLayout>
